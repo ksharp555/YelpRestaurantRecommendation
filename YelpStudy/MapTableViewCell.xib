@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="126" id="KGk-i7-Jjw" customClass="MapTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="339" height="125.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="z2X-oI-rAJ">
+                        <rect key="frame" x="8" y="8" width="323" height="110"/>
+                    </mapView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="z2X-oI-rAJ" secondAttribute="bottom" id="4zH-AS-GdG"/>
+                    <constraint firstItem="z2X-oI-rAJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="UOa-OQ-Q2Z"/>
+                    <constraint firstItem="z2X-oI-rAJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="cjE-bk-BIw"/>
+                    <constraint firstItem="z2X-oI-rAJ" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="mxA-Rr-ILJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="mapView" destination="z2X-oI-rAJ" id="XTb-Cp-RZD"/>
+            </connections>
+            <point key="canvasLocation" x="-199" y="107"/>
+        </tableViewCell>
+    </objects>
+</document>

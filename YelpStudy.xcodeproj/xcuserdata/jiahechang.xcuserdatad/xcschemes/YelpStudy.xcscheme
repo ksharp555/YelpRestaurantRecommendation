@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C3C62CC81F0C23E300D1AC47"
+               BuildableName = "YelpStudy.app"
+               BlueprintName = "YelpStudy"
+               ReferencedContainer = "container:YelpStudy.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C3C62CE11F0C23E300D1AC47"
+               BuildableName = "YelpStudyTests.xctest"
+               BlueprintName = "YelpStudyTests"
+               ReferencedContainer = "container:YelpStudy.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C3C62CEC1F0C23E300D1AC47"
+               BuildableName = "YelpStudyUITests.xctest"
+               BlueprintName = "YelpStudyUITests"
+               ReferencedContainer = "container:YelpStudy.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C3C62CC81F0C23E300D1AC47"
+            BuildableName = "YelpStudy.app"
+            BlueprintName = "YelpStudy"
+            ReferencedContainer = "container:YelpStudy.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C3C62CC81F0C23E300D1AC47"
+            BuildableName = "YelpStudy.app"
+            BlueprintName = "YelpStudy"
+            ReferencedContainer = "container:YelpStudy.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C3C62CC81F0C23E300D1AC47"
+            BuildableName = "YelpStudy.app"
+            BlueprintName = "YelpStudy"
+            ReferencedContainer = "container:YelpStudy.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
